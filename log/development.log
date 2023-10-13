@@ -1,0 +1,30 @@
+Started GET "/calculator/calculate?a=10&b=5&operator=%2B" for ::1 at 2023-10-09 22:39:55 +0500
+Processing by CalculatorController#calculate as */*
+  Parameters: {"a"=>"10", "b"=>"5", "operator"=>"+"}
+Completed 200 OK in 22ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 3550)
+
+
+Started GET "/calculator/calculate?a=10&b=5&operator=-" for ::1 at 2023-10-09 22:40:00 +0500
+Processing by CalculatorController#calculate as */*
+  Parameters: {"a"=>"10", "b"=>"5", "operator"=>"-"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 227)
+
+
+Started GET "/calculator/calculate?a=10&b=5&operator=*" for ::1 at 2023-10-09 22:40:03 +0500
+Processing by CalculatorController#calculate as */*
+  Parameters: {"a"=>"10", "b"=>"5", "operator"=>"*"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 175)
+
+
+Started GET "/calculator/calculate?a=10&b=5&operator=/" for ::1 at 2023-10-09 22:40:06 +0500
+Processing by CalculatorController#calculate as */*
+  Parameters: {"a"=>"10", "b"=>"5", "operator"=>"/"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 179)
+
+
+Started GET "/calculator/calculate?a=10&b=5&operator=$" for ::1 at 2023-10-09 22:40:08 +0500
+Processing by CalculatorController#calculate as */*
+  Parameters: {"a"=>"10", "b"=>"5", "operator"=>"$"}
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 181)
+
+
